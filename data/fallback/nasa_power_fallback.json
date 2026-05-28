@@ -1,0 +1,56 @@
+{
+  "source": "NASA_POWER_FALLBACK",
+  "latitude": 28.5721,
+  "longitude": -80.6480,
+  "records": [
+    {
+      "date": "2026-05-20",
+      "temperature_c": 26.4,
+      "precipitation_mm": 0.2,
+      "wind_speed_m_s": 5.1,
+      "humidity_percent": 72
+    },
+    {
+      "date": "2026-05-21",
+      "temperature_c": 27.1,
+      "precipitation_mm": 0.0,
+      "wind_speed_m_s": 4.8,
+      "humidity_percent": 68
+    },
+    {
+      "date": "2026-05-22",
+      "temperature_c": 28.0,
+      "precipitation_mm": 0.5,
+      "wind_speed_m_s": 6.2,
+      "humidity_percent": 74
+    },
+    {
+      "date": "2026-05-23",
+      "temperature_c": 25.9,
+      "precipitation_mm": 1.2,
+      "wind_speed_m_s": 7.1,
+      "humidity_percent": 79
+    },
+    {
+      "date": "2026-05-24",
+      "temperature_c": 26.8,
+      "precipitation_mm": 0.3,
+      "wind_speed_m_s": 5.5,
+      "humidity_percent": 70
+    },
+    {
+      "date": "2026-05-25",
+      "temperature_c": 27.6,
+      "precipitation_mm": 0.0,
+      "wind_speed_m_s": 4.9,
+      "humidity_percent": 67
+    },
+    {
+      "date": "2026-05-26",
+      "temperature_c": 28.3,
+      "precipitation_mm": 0.4,
+      "wind_speed_m_s": 6.0,
+      "humidity_percent": 71
+    }
+  ]
+}

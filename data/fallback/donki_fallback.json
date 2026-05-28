@@ -1,0 +1,22 @@
+{
+  "source": "NASA_DONKI_FALLBACK",
+  "event_count": 2,
+  "events": [
+    {
+      "event_id": "FLR-FALLBACK-001",
+      "begin_time": "2026-05-20T10:20Z",
+      "peak_time": "2026-05-20T10:35Z",
+      "class_type": "C2.1",
+      "source_location": "N15E20",
+      "active_region": "AR-FALLBACK"
+    },
+    {
+      "event_id": "FLR-FALLBACK-002",
+      "begin_time": "2026-05-23T18:40Z",
+      "peak_time": "2026-05-23T18:55Z",
+      "class_type": "M1.6",
+      "source_location": "S09W12",
+      "active_region": "AR-FALLBACK-2"
+    }
+  ]
+}
