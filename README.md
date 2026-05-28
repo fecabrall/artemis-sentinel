@@ -21,7 +21,6 @@
 * [📄 Relatório Excel](#-relatório-excel)
 * [📧 Notificações SMTP](#-notificações-smtp)
 * [🧪 Testes Automatizados](#-testes-automatizados)
-* [🔐 Segurança](#-segurança)
 * [📚 Documentação Técnica](#-documentação-técnica)
 * [🛠️ Troubleshooting](#️-troubleshooting)
 * [📄 Licença](#-licença)
@@ -452,51 +451,11 @@ Cobertura principal:
 
 ---
 
-# 🔐 Segurança
-
-## Arquivos ignorados
-
-```text
-.env
-.venv/
-__pycache__/
-.pytest_cache/
-database/*.db
-logs/*.log
-data/reports/*.xlsx
-```
-
----
-
-## Arquivos versionados
-
-```text
-README.md
-requirements.txt
-pytest.ini
-main.py
-app.py
-src/
-tests/
-docs/
-data/fallback/
-```
-
----
 
 # 📚 Documentação Técnica
 
 Arquivos disponíveis em `docs/`:
 
-| Arquivo                                 | Finalidade                  |
-| --------------------------------------- | --------------------------- |
-| `RELATORIO_TECNICO_ARTEMIS_SENTINEL.md` | Relatório técnico           |
-| `RELATORIO_FINAL_VALIDACAO.md`          | Evidências de validação     |
-| `PDD_ARTEMIS_SENTINEL.md`               | Process Definition Document |
-| `SDD_ARTEMIS_SENTINEL.md`               | Software Design Document    |
-| `POP_ARTEMIS_SENTINEL.md`               | Procedimento Operacional    |
-| `ROTEIRO_PITCH_ARTEMIS_SENTINEL.md`     | Pitch técnico               |
-| `COMO_EXPORTAR_DOCUMENTACAO.md`         | Exportação DOCX/PDF         |
 
 ---
 
