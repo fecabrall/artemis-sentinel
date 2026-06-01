@@ -413,7 +413,8 @@ EMAIL_ENABLED=true
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=seu_email@gmail.com
-SMTP_APP_PASSWORD=sua_senha_de_app
+SMTP_APP_PASSWORD= 
+# Use uma App Password do Gmail (16 caracteres)
 ALERT_EMAIL_TO=destino@gmail.com
 SEND_EXCEL_ATTACHMENT=true
 ```
@@ -451,6 +452,46 @@ Cobertura principal:
 
 ---
 
+<<<<<<< HEAD
+=======
+# 🔐 Segurança
+
+## Arquivos ignorados
+
+```text
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+database/*.db
+logs/*.log
+data/reports/*.xlsx
+```
+
+---
+
+## Arquivos versionados
+
+```text
+README.md
+requirements.txt
+pytest.ini
+main.py
+app.py
+src/
+tests/
+docs/
+data/fallback/
+```
+---
+
+## Segurança da NASA_API_KEY
+
+- Nunca versione uma chave real no repositório.
+- Para rodar em modo demo, use `NASA_API_KEY=DEMO_KEY`.
+- Se você colocou uma chave real em algum commit por engano, **revogue/regere** a chave e substitua imediatamente.
+---
+>>>>>>> cc894c9 (fix: update README with SMTP_APP_PASSWORD instructions and add NASA_API_KEY security notes)
 
 # 📚 Documentação Técnica
 
