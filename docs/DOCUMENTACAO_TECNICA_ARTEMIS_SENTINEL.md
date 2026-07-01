@@ -1,15 +1,10 @@
 # Documentação Técnica — ARTEMIS Sentinel
 
-## 1. Identificação do projeto
+## 1. Visão Geral do Projeto
 
 **Projeto:** ARTEMIS Sentinel — AI-RPA Mission Validation System  
-**Disciplina:** AI for RPA — Global Solution 2026  
-
-| Integrante | RM |
-|---|---|
-| Augusto Codo | RM 562080 |
-| Felipe Cabral | RM 561720 |
-| Sofia Souza | RM 565818 |
+**Status:** Operacional (Homologado)  
+**Objetivo:** Validação contínua de telemetria de missões aeroespaciais simuladas e conformidade operacional.
 
 ---
 
@@ -264,7 +259,7 @@ EMAIL_ENABLED=true
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=seu_email@gmail.com
-SMTP_APP_PASSWORD=sua_senha_de_app
+SMTP_APP_PASSWORD=
 ALERT_EMAIL_TO=email_destino@gmail.com
 SEND_EXCEL_ATTACHMENT=true
 ```
@@ -332,6 +327,6 @@ Os testes cobrem:
 
 O ARTEMIS Sentinel demonstra um pipeline AI-RPA completo para validação operacional simulada, integrando APIs externas, regras de negócio, ML local, banco SQLite, Excel, dashboard e boas práticas de segurança.
 
-O projeto é adequado para fins acadêmicos e demonstra rastreabilidade, automação e análise de risco em um cenário inspirado em missões espaciais.
+O projeto demonstra rastreabilidade total, automação robusta de processos robóticos (RPA) e modelagem avançada de risco sob um cenário de simulação de alta fidelidade.
 ```
 

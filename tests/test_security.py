@@ -42,7 +42,7 @@ def test_mask_sensitive_text():
     [
         "README.md",
         ".env.example",
-        "docs/RELATORIO_TECNICO_ARTEMIS_SENTINEL.md",
+        "docs/DOCUMENTACAO_TECNICA_ARTEMIS_SENTINEL.md",
     ],
 )
 def test_versioned_docs_no_hardcoded_long_keys(rel_path):
@@ -59,5 +59,5 @@ def test_versioned_docs_no_hardcoded_long_keys(rel_path):
 
 def test_readme_recommends_revoke():
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert "Segurança da NASA_API_KEY" in readme
-    assert "revogue" in readme.lower()
+    assert "NASA_API_KEY Security" in readme
+    assert "revoke" in readme.lower()
