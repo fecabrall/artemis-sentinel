@@ -134,8 +134,7 @@ EMAIL_ENABLED=false             # Set to true to enable email summary alerts
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your-email@gmail.com
-SMTP_APP_PASSWORD=
-# Google App Password (16 characters)
+SMTP_APP_PASSWORD=              # Google App Password (16 characters)
 ALERT_EMAIL_TO=recipient@mail.com
 SEND_EXCEL_ATTACHMENT=false
 ```
